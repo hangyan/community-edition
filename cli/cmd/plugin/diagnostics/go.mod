@@ -12,13 +12,13 @@ require (
 	github.com/vmware-tanzu/community-edition v0.9.1
 	github.com/vmware-tanzu/crash-diagnostics v0.3.7
 	github.com/vmware-tanzu/tanzu-framework v0.10.1
-	sigs.k8s.io/kind v0.12.0
+	sigs.k8s.io/kind v0.14.0
 )
 
 require (
 	cloud.google.com/go v0.99.0 // indirect
 	cloud.google.com/go/storage v1.10.0 // indirect
-	github.com/BurntSushi/toml v0.4.1 // indirect
+	github.com/BurntSushi/toml v1.0.0 // indirect
 	github.com/adrg/xdg v0.2.1 // indirect
 	github.com/alessio/shellescape v1.4.1 // indirect
 	github.com/aunum/log v0.0.0-20200821225356-38d2e2c8b489 // indirect
