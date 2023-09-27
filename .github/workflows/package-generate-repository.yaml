@@ -75,7 +75,7 @@ jobs:
       - name: Check out code into the Go module directory
         uses: actions/checkout@v1
       - name: Install Carvel Tools
-        uses: vmware-tanzu/carvel-setup-action@v1
+        uses: vmware-tanzu/carvel-setup-action@v2
       - name: Check the versions of Carvel tools
         run: |
           imgpkg version && kbld version && vendir version && ytt version
