@@ -42,7 +42,7 @@ jobs:
         run: |
           echo "::set-output name=date::$(date -u "+%Y-%m")"
       - name: Restore Go Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         timeout-minutes: 10
         continue-on-error: true
         with:
