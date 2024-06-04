@@ -86,7 +86,7 @@ jobs:
           echo "TODAY: ${TODAY}"
           echo ::set-output name=DAILY_BUILD::${TODAY}
       - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.GH_RELEASE_ACCESS_TOKEN }}
           event-type: daily-build
